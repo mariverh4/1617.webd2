@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 
 html, body {
@@ -10,19 +12,122 @@ html, body {
 body {
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
+  overflow: scroll;
+  background-blend-mode: lighten;
   background-size: cover;
-
-  color: rgba(232,234,246 ,1);
+  color: black;
+ 
+ 
 }
 
-.intro {
-  width: 90vw;
-
-  padding: 1rem;
-  margin-top: 1rem;
-
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+/*navigatie*/
+nav * {
+    box-sizing: border-box;
 }
+
+nav {
+    display:block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:6px;
+    background:url(../img/landscape.jpg);
+    text-align: center;
+    margin-left: 20px;
+}
+nav > ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    
+}
+nav > ul > li {
+   
+    float:left;
+}
+nav > ul > li > a {
+    display:block;
+    text-decoration:none;
+    padding:14px 16px;
+    color: white;
+   
+    font-weight: regular;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    border-right:1px solid white;
+}
+nav > ul > li:first-of-type > a {
+    border-left:1px solid white;
+}
+
+
+nav > ul > li > a:hover {
+  background-color:white;
+   color: #f3b88e;
+}
+
+nav > ul > li > a {
+   text-decoration: none
+
+}
+
+nav > ul > li.active > a
+{
+  background-color: #492f48;
+}
+
+
+/* achtergond_css*/
+
+
+.foto {
+  background: url(../img/landscape.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height:  300px;
+  position: relative;
+}
+.foto__text { 
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  position:  absolute;
+  color: white;
+  top: 20%;
+  left: 50%;
+  text-align: center;
+  transform:  translate(-50%,-50%);
+}
+.foto__title { 
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.footer-wrapper {
+   display: block;
+   color: white;
+  background: url(../img/landscape2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+  padding: 15px; 
+  
+}
+.imglogo{
+  width:351px;
+  height:144px;
+  background-image:url('../img/grafilynzonder.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 140px;
+
+
+}
+.imglogo:hover{
+  background-image:url('../img/grafilynmet.png');
+}
+
+
