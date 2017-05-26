@@ -47,7 +47,7 @@ nav > ul > li > a {
     display:block;
     text-decoration:none;
     padding:14px 60px;
-    color: green;
+    color: gray;
    
     font-weight: regular;
     text-decoration: none;
@@ -78,7 +78,7 @@ nav > ul > li.active > a
 
 
 .foto {
-  background: url(../img/mezelf.jpg);
+  background: url(../img/boom.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -123,10 +123,11 @@ nav > ul > li.active > a
 .footer-wrapper {
    display: block;
    color: white;
-  background: url(../img/bos3.jpg);
+  background: lightgray;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 60px;
+  margin-top: 300px;
   padding: 5px; 
+  
   
 }
