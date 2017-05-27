@@ -8,7 +8,7 @@
     margin-bottom: 13px;
     padding: 0 3px;
     margin-top: 50px;
-    margin-left: 115px;
+    margin-left: 130px;
     padding-right: 4px;
     width: 20%;
 }
@@ -51,14 +51,14 @@
     display: inline-block;
     padding: 10px;
     color: white;
-    background: url(../img/boom.png);
+    background-color:black;
     text-align: center;
     cursor: pointer;
     width: 100%;
 }
 
 .button:hover {
-    background-color:#f3b88e;
-    color:white;
+    background-color:white;
+    color: green;
 }
 
